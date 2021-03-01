@@ -18,6 +18,28 @@
     }
   }
 
+  /* navigation bar */
+
+  .topnav {
+    overflow: hidden;
+    font-family: inferno;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .topnav a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+
   /* other */
 .center {
     text-align: center;
@@ -52,3 +74,7 @@ h4{
 header{
     padding: 50px;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
