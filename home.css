@@ -1,24 +1,4 @@
-/* image table */
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 0px;
-  }
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    padding: 0px;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
-
-  /* navigation bar */
+/* navigation bar */
 
   .topnav {
     overflow: hidden;
@@ -79,12 +59,13 @@ html {
   }
 
 /*sections*/
-
 .row{
     display: flex;
     justify-content: center;
   }
   .column{
+    float: left;
+    width: 33.33%;
     padding: 0px;
   }
 

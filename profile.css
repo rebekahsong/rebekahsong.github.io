@@ -1,0 +1,21 @@
+.inferno{
+  font-family: inferno;
+}
+
+.noMargins {
+  margin: 0px 0px 0px 0px;
+}
+
+
+@font-face {
+  font-family: inferno;
+  src: url("royal_inferno/Royal-Inferno.ttf");
+}
+
+.row{
+  display: flex;
+  justify-content: left;
+}
+.column{
+  padding: 10px 20px 0px 0px;
+}
