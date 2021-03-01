@@ -89,16 +89,21 @@ html {
   }
 
   .columnText{
-      padding: 0px 15px 50px 15px;
       font-family: Optima, sans-serif;
-      margin: 0px;
+      margin: 0px 100px 100px 100px;
   }
 
   .justified{
     text-align: justify;
   }
 
-  .chunk-text{
-    margin: 0px 100px 0px 100px;
-  }
   
+  .leftText{
+      margin: 0px 0px 0px 200px;
+      text-align: left;
+  }
+
+  .rightText{
+      margin: 0px 200px 0px 0px;
+      text-align: right;
+  }
