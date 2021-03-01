@@ -1,0 +1,54 @@
+/* image table */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 0px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  /* other */
+.center {
+    text-align: center;
+}
+
+.noMargins {
+    margin: 0px 0px 0px 0px;
+}
+
+.inferno{
+    font-family: inferno;
+}
+
+@font-face {
+    font-family: inferno;
+    src: url("royal_inferno/Royal-Inferno.ttf");
+  }
+
+div {
+    padding: 0px 30px 0px 30px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h4{
+    /* font-family: Trattatello, fantasy; */
+    font-family: Optima, sans-serif;
+}
+
+header{
+    padding: 50px;
+}
