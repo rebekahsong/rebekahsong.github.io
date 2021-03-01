@@ -67,7 +67,6 @@ h1 {
 }
 
 h4{
-    /* font-family: Trattatello, fantasy; */
     font-family: Optima, sans-serif;
 }
 
@@ -78,3 +77,28 @@ header{
 html {
     scroll-behavior: smooth;
   }
+
+/*sections*/
+
+.row{
+    display: flex;
+    justify-content: center;
+  }
+  .column{
+    padding: 0px;
+  }
+
+  .columnText{
+      padding: 0px 15px 50px 15px;
+      font-family: Optima, sans-serif;
+      margin: 0px;
+  }
+
+  .justified{
+    text-align: justify;
+  }
+
+  .chunk-text{
+    margin: 0px 100px 0px 100px;
+  }
+  
