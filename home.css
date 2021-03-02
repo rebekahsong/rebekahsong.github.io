@@ -1,22 +1,24 @@
-/* image table */
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 0px;
+/* navigation bar */
+
+  .topnav {
+    overflow: hidden;
+    font-family: inferno;
   }
   
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    padding: 0px;
+  .topnav a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
   }
   
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
+  .topnav a:hover {
+    text-decoration: underline;
+    color: black;
   }
+
 
   /* other */
 .center {
@@ -44,11 +46,50 @@ h1 {
     font-size: 100px;
 }
 
+h2{
+    padding: 40px 0px 15px 0px;
+    margin: 0px;
+}
+
 h4{
-    /* font-family: Trattatello, fantasy; */
     font-family: Optima, sans-serif;
 }
 
 header{
     padding: 50px;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/*sections*/
+.row{
+    display: flex;
+    justify-content: center;
+  }
+  .column{
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+  }
+
+  .columnText{
+      font-family: Optima, sans-serif;
+      margin: 0px 100px 100px 100px;
+  }
+
+  .justified{
+    text-align: justify;
+  }
+
+  
+  .leftText{
+      margin: 0px 0px 0px 200px;
+      text-align: left;
+  }
+
+  .rightText{
+      margin: 0px 200px 0px 0px;
+      text-align: right;
+  }
